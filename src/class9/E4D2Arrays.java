@@ -11,8 +11,8 @@ public class E4D2Arrays {
         for (int j = 0; j < 3; j++) {
 
             int[] arr1 = matrix[j];
-            for (int i = 0; i < arr1.length; i++) {
-                System.out.print(arr1[i] + " ");
+            for (int i = 0; i < matrix[j].length; i++) {
+                System.out.print(matrix[j][i] + " ");
             }
             System.out.println();
         }
