@@ -2,6 +2,7 @@ package homeWorkString12;
 
 public class task1 {
     public static void main(String[] args) {
+        // String str=new String(" ")
         String girls= "Tanilla && Fatima";
       int length=girls.length();
 

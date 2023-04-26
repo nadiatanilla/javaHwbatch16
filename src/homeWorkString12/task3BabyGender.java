@@ -28,7 +28,7 @@ Suggested baby name: MAIEL */
         if(gender.equals("boy")){
             System.out.println(dadName.substring(0,3).toUpperCase()+momName.substring(momName.length()-2).toUpperCase());
         }else if(gender.equals("girl")){
-            System.out.println(momName.substring(0,2).toUpperCase()+dadName.substring(dadName.length()-3).toUpperCase());
+            System.out.println(momName.substring(0,3).toUpperCase()+dadName.substring(dadName.length()-3).toUpperCase());
         }
 
     }
