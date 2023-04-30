@@ -7,6 +7,7 @@ public class duplicateElement {
             for(int j=i+1;j< names.length;j++){
                 if(names[i]==names[j]){
                     System.out.println("The duplicate name is "+ names[j]);
+                    System.out.println("i = "+i+" and j = "+j);
                 }
             }
         }
