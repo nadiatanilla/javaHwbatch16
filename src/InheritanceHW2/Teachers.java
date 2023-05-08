@@ -1,13 +1,15 @@
-package InheritanceHW;
+package InheritanceHW2;
 
-public class Teacher {
+import InheritanceHW.Teacher;
+
+public class Teachers {
     //Write a Java program called Teacher.
     // Identify features and 4 behaviour of that Class.
     // Create 3 subclasses MathTeacher, ChemistryTeacher and PianoTeacher . Test all 4 classes
-    String name;
-     String subject;
-    int age;
-    boolean isPresent;
+    protected String name;
+     protected String subject;
+     int age;
+     boolean isPresent;
     void teach(){
         System.out.println(name+" teaches "+subject);
     }
@@ -22,13 +24,14 @@ public class Teacher {
     }
 
 }
-class MathTeacher extends Teacher{
+class MathTeacher extends Teachers {
 
 }
-class ChemistryTeacher extends Teacher{
+class ChemistryTeacher extends Teachers{
 
 }
-class PianoTeacher extends Teacher{
+class PianoTeacher extends Teachers{
 
 }
+
 
