@@ -22,4 +22,13 @@ public class Car {
         this.year=year;
 
     }
+    void display (){
+        System.out.println("car is "+make+" "+model);
+    }
+
+    public static void main(String[] args) {
+        Car obj=new Car("American","Toyuta","Black");
+        obj.display();
+    }
+
 }
