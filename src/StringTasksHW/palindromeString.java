@@ -1,6 +1,8 @@
 package StringTasksHW;
 
-public class palindromeString {
+public class
+
+palindromeString {
     public static void main(String[] args) {
         //Palindrome String is String that remains the same after reversing it
         String str="MADAM";
