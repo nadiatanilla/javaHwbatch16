@@ -2,8 +2,19 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <excludeFromCompile>
-      <directory url="file://$PROJECT_DIR$/src/HomeWorkArrays" includeSubdirectories="true" />
-      <directory url="file://$PROJECT_DIR$/src/HomeWorkNumber4" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/src/main/java/HomeWorkArrays" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/src/main/java/HomeWorkNumber4" includeSubdirectories="true" />
     </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="SDET16" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SDET16" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
