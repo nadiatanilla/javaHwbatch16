@@ -80,20 +80,3 @@ class Health extends Insurance{
         return insuranceName;
     }
 }
-class Card {
-    private double interestRate;
-    private String cardType;
-
-     Card(double interestRate, String cardType) {
-        this.interestRate = interestRate;
-        this.cardType = cardType;
-    }
-
-    @Override
-    public String toString() {
-        return "Card{" +
-                "interestRate=" + interestRate +
-                ", cardType='" + cardType + '\'' +
-                '}';
-    }
-}

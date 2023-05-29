@@ -4,6 +4,7 @@ import java.util.HashMap;
 
 public class E1Maps {
     public static void main(String[] args) {
+        // no duplicate but it does not maintain the insertion order
         HashMap<String ,Double>grocery=new HashMap<>();// with hash map wiyh need two classes inside<>
         grocery.put("Apple",2.5);
         grocery.put("Eggs",4.6);

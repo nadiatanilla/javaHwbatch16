@@ -6,6 +6,9 @@ import java.util.TreeMap;
 
 public class E3Maps {
     public static void main(String[] args) {
+        // it based data based on keys
+        // it is slower than hash map and linked hash map
+
 
         TreeMap<String,Double> makeUp=new TreeMap<>();
         //          key       value

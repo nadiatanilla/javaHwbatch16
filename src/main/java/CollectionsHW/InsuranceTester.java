@@ -19,20 +19,7 @@ public class InsuranceTester {
                 System.out.println(insurance.insuranceName);
             }
 
-            List<Card> cards = new LinkedList<>();
-            cards.add(new Card(0.20, "Credit Card 1"));
-            cards.add(new Card(0.16, "Debit Card 2"));
-            cards.add(new Card(0.10, "Credit Card 3"));
 
-
-            Iterator<Card> cardIterator = cards.iterator();
-            while (cardIterator.hasNext()) {
-                Card card= cardIterator.next();
-                System.out.println(card);
-
-
-
-            }
         }
     }
 

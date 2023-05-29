@@ -15,6 +15,8 @@ public class E1Sets {
         for(String unique:uniqueNames){
             System.out.println(unique);
         }
+        uniqueNames.remove("Yellow");
+        System.out.println(uniqueNames);
 
     }
 }
