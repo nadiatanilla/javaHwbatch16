@@ -11,7 +11,8 @@ public abstract class  Insurance {
     //  Using for loop/advanced for loop/ iterator access all methods of the class.
    String insuranceName;
 
-    public Insurance(String insuranceName) {
+    public Insurance(String insuranceName)
+    {
         this.insuranceName = insuranceName;
     }
 

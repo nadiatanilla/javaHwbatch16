@@ -7,7 +7,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
@@ -30,7 +29,7 @@ public class E2ConfigReader {
         login.click();
 }
 public static String getProperty(String key) throws IOException {
-    FileInputStream fis=new FileInputStream(Constants.ConfigReaderPath);
+    FileInputStream fis=new FileInputStream(Constants.CONFIG_READER_PATH);
     Properties properties=new Properties();
     properties.load(fis);
     return properties.getProperty(key);

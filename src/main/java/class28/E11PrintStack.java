@@ -9,6 +9,7 @@ public class E11PrintStack {
           //  e.printStackTrace();// helps you trace the eroor
             System.out.println(e.getMessage());
             System.out.println(e);
+
         }
         System.out.println("2");
     }

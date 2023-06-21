@@ -14,6 +14,7 @@ public class task2cars {
             }
             System.out.println();
         }
+        // THIS IS HOW E USE ENHANCED FOR LOOP IN2D ARRAY
         for (String[] brand : carsBrands) {
             for (String cars : brand) {
                 System.out.print(cars+" ");
